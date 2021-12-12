@@ -1,2 +1,3 @@
 # Online-clothing-store-example
-Online clothing store documents example
+
+![](./c4-system-context-ocs.svg)
