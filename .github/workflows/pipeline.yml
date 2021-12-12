@@ -1,12 +1,5 @@
-# This is a basic workflow to help you get started with Actions
-
 name: ocs-pipeline-actions
 
-env:
-  GH_PIPELINE_VAR1 : "GH PIPELINE VAR1 Value"
-  GH_PIPELINE_VAR2 : "GH PIPELINE VAR2 Value"
-
-# Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
@@ -21,32 +14,19 @@ on:
 jobs:
   plantuml_svg_geteration:
     runs-on: ubuntu-latest
-    env: 
-      GH_JOB1_VAR1: "GH plantuml_svg_geteration job VAR1 Value"
-      GH_JOB1_VAR2: "GH plantuml_svg_geteration job VAR2 Value"
-    steps:
-      - name: Print message
-        run: echo "Start plantuml files processing"
+    name: plantuml
     
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - name: Checkout repo
-        uses: actions/checkout@v2
-        
-      - name: ls current dir
-        run: ls -la
-        
-      - name: printenv
-        run: printenv
-        env:
-          GH_STEP_VAR1: "GH STEP printenv VAR1 Value"
-          GH_STEP_VAR2: "GH STEP printenv VAR2 Value"
-      
-      # Runs a single command using the runners shell
-      #- name: Run a one-line script
-      #  run: echo Hello, world!
+    steps:
+    - name: checkout
+      uses: actions/checkout@v1
+      with:
+        fetch-depth: 1
 
-      # Runs a set of commands using the runners shell
-      #- name: Run a multi-line script
-      #  run: |
-      #    echo Add other actions to build,
-      #    echo test, and deploy your project.
+    - name: plantuml
+      id: plantuml
+      uses: grassedge/generate-plantuml-action@v1.5
+      with:
+        path: example
+        message: "Render PlantUML files"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
