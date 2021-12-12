@@ -5,7 +5,7 @@
  
 LAYOUT_WITH_LEGEND()
  
-title System Context diagram for Online clothing store
+title System Context diagram for Online clothing store (OCS)
  
 Person(customer, "Сustomer", "A customer making purchases in the online clothing store.")
 Person(content_manager, "Content manager", "An employee who forms the content of the site.")
@@ -14,6 +14,7 @@ Person(support, "Support staff member", "An employee who deals with user request
 Person(administrator, "Administrator", "An employee who manages the role model and participates in incidents analysis.")
 Person(order_picker, "Order picker", "An employee who selects a warehouse items and packages them for delivery.")
 Person_Ext(sales_manager, "Sales manager", "An employee who works to increase sales and revenue.")
+
 System(store_system, "Online clothing store", "Allows customers to make online orders for clothing purchases with online payment and delivery options.")
  
 System_Ext(notification_system, "Omni notification System", "Provides sending notifications through different channels.")
@@ -38,4 +39,5 @@ Rel(store_system, WMS, "Gets and modified information about the remaining items 
 Rel(store_system, BI, "Provides information for analytics to")
 Rel(sales_manager, BI, "Analyzes using information from ")
 Rel(store_system, accounting_system, "Sends information for accounting to")
+
 @enduml
