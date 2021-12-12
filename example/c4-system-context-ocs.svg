@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="817px" preserveAspectRatio="none" style="width:1727px;height:817px;background:#FFFFFF;" version="1.1" viewBox="0 0 1727 817" width="1727px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="463" x="625.75" y="16.708">System Context diagram for Online clothing store</text><!--MD5=[92848cbaf65985a669855153c5362c37]
+entity customer--><rect fill="#08427B" height="151.8125" style="stroke:#073B6F;stroke-width:1.5;" width="190" x="1309.5" y="36.9531"/><image height="48" width="48" x="1380.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="46.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="90" x="1359.5" y="109.8047">Сustomer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1406.5" y="126.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1335" y="142.8701">A customer making</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="1319.5" y="159.167">purchases in the online</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="106" x="1351.5" y="175.4639">clothing store.</text><!--MD5=[a8f16bbfea097bf8ddb7ae421d3651ae]
+entity content_manager--><rect fill="#08427B" height="135.5156" style="stroke:#073B6F;stroke-width:1.5;" width="202" x="1008.5" y="44.9531"/><image height="48" width="48" x="1085.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="54.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="161" x="1029" y="117.8047">Content manager</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1111.5" y="134.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="1022.5" y="150.8701">An employee who forms</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="1024" y="167.167">the content of the site.</text><!--MD5=[205843ca6581d12969d37bc00472a37a]
+entity сall_center--><rect fill="#08427B" height="151.8125" style="stroke:#073B6F;stroke-width:1.5;" width="207" x="7" y="36.9531"/><image height="48" width="48" x="86.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="46.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="187" x="17" y="109.8047">Call center operator</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="112.5" y="126.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="24" y="142.8701">An employee of the Call</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="27.5" y="159.167">center who works with</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="41" y="175.4639">customer requests.</text><!--MD5=[3f2528b1916f297db3f7bc315380272e]
+entity support--><rect fill="#08427B" height="170.4375" style="stroke:#073B6F;stroke-width:1.5;" width="214" x="249.5" y="27.9531"/><image height="48" width="48" x="332.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="37.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="125" x="291" y="100.8047">Support staff</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="75" x="319" y="119.4297">member</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="358.5" y="136.1982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="272" y="152.4951">An employee who deals</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="259.5" y="168.792">with user requests to work</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="296" y="185.0889">with the system.</text><!--MD5=[65a041cd1922b3dee6e64063a2213939]
+entity administrator--><rect fill="#08427B" height="168.1094" style="stroke:#073B6F;stroke-width:1.5;" width="220" x="498.5" y="28.9531"/><image height="48" width="48" x="584.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="38.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="128" x="544.5" y="101.8047">Administrator</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="610.5" y="118.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="512.5" y="134.8701">An employee who manages</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="538.5" y="151.167">the role model and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="175" x="519" y="167.4639">participates in incidents</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="578.5" y="183.7607">analysis.</text><!--MD5=[37c85760291afb9fc673cb62ce444a41]
+entity order_picker--><rect fill="#08427B" height="168.1094" style="stroke:#073B6F;stroke-width:1.5;" width="219" x="754" y="28.9531"/><image height="48" width="48" x="839.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="38.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="113" x="807" y="101.8047">Order picker</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="865.5" y="118.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="768" y="134.8701">An employee who selects a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="786" y="151.167">warehouse items and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="793.5" y="167.4639">packages them for</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="832.5" y="183.7607">delivery.</text><!--MD5=[1fdb20baae2a071b9a7a35b9c52b42e8]
+entity sales_manager--><rect fill="#686868" height="135.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="218" x="291.5" y="300.9531"/><image height="48" width="48" x="376.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAB6ElEQVR4Xu2YLY+EMBCG9+dWr0aj0Wg0Go1Go0+j8Xdv2uTCvv1gpt0ebHKPuhDaeW4605Z9mJvx4AdXUyTUdd08z+u6flmWZRnHsWkafk9DptAwDPu+f0eAYtu2PEaGWuj5fCIZrBAC2eLBAnRCsEkkxmeaJp7iDJ2QMDdHsLg8SxKFEJaAo8lAXnmuOFIhTMpxxKATebo4UiFknuNo4OniSIXQyRxEA3YsnjGCVEjVXD7yLUAqxBGUyPv/Y4W2beMgGuS7kVQIBycH0fD+oi5pezQETxdHKmQKGk1eQEYldK+jw5GxPfZ9z7Mk0Qnhf1W1m3w//EUn5BDmSZsbR44QQLBEqrBHqOrmSKaQAxdnLArCrxZcM7A7ZKs4ioRq8LFC+NpC3WCBJsvpVw5edm9iEXFuyNfxXAgSwfrFQ1c0iNda8AdejvUgnktOtJQQxmcfFzGglc5WVCj7oDgFqU18boeFSs52CUh8LE8BIVQDT1ABrB0HtgSEYlX5doJnCwv9TXocKCaKbnwhdDKPq4lf3SwU3HLq4V/+WYhHVMa/3b4IlfyikAduCkcBc7mQ3/z/Qq/cTuikhkzB12Ae/mcJC9U+Vo8Ej1gWAtgbeGgFsAMHr50BIWOLCbezvhpBFUdY6EJuJ/QDW0XoMX60zZ0AAAAASUVORK5CYII=" y="310.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="134" x="333.5" y="373.8047">Sales manager</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="402.5" y="390.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="305.5" y="406.8701">An employee who works to</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="196" x="302.5" y="423.167">increase sales and revenue.</text><!--MD5=[1b79ff268a27e91e81c1a5b7fb3ea344]
+entity store_system--><rect fill="#1168BD" height="136.4063" style="stroke:#3C7FC0;stroke-width:1.5;" width="216" x="794.5" y="300.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="193" x="806" y="325.8047">Online clothing store</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="904.5" y="342.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="808.5" y="358.8701">Allows customers to make</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="809.5" y="375.167">online orders for clothing</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="155" x="823" y="391.4639">purchases with online</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="156" x="822.5" y="407.7607">payment and delivery</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="872.5" y="424.0576">options.</text><!--MD5=[17cc1bb1a5946c4c7d0beec315873321]
+entity notification_system--><rect fill="#999999" height="122.4375" style="stroke:#8A8A8A;stroke-width:1.5;" width="187" x="1271" y="307.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="161" x="1281" y="332.8047">Omni notification</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="68" x="1330.5" y="351.4297">System</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1366.5" y="368.1982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="1304" y="384.4951">Provides sending</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="1286.5" y="400.792">notifications through</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="1296" y="417.0889">different channels.</text><!--MD5=[db40f243d441b584286b13d99b87ba85]
+entity payment_system--><rect fill="#999999" height="87.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="216" x="1396.5" y="579.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="155" x="1427" y="604.3047">Payment System</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1506.5" y="621.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="1410.5" y="637.3701">Allows customers to make</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="1442" y="653.667">online payments.</text><!--MD5=[46aca300c741b1754afdfc91e574deaf]
+entity delivery_system--><rect fill="#999999" height="138.7344" style="stroke:#8A8A8A;stroke-width:1.5;" width="212" x="1078.5" y="553.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="144" x="1109.5" y="578.8047">Delivery service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="68" x="1150.5" y="597.4297">System</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1186.5" y="614.1982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="1112.5" y="630.4951">Allows customers to</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="188" x="1088.5" y="646.792">receive information about</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="1095.5" y="663.0889">the delivery status of an</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="44" x="1162.5" y="679.3857">order.</text><!--MD5=[533ac86ec1d3b8384f1deb17a1c78a61]
+entity WMS--><rect fill="#999999" height="106.1406" style="stroke:#8A8A8A;stroke-width:1.5;" width="212" x="600.5" y="570.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="103" x="652" y="595.3047">Warehouse</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="192" x="610.5" y="613.9297">Management System</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="708.5" y="630.6982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="615.5" y="646.9951">Stores information about</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="631" y="663.292">the remaining items.</text><!--MD5=[fd1e116933dfb0c1c098635d04c87b3d]
+entity accounting_system--><rect fill="#999999" height="87.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="196" x="847.5" y="579.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="176" x="857.5" y="604.3047">Accounting System</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="947.5" y="621.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="882.5" y="637.3701">Manages financial</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="90" x="900.5" y="653.667">information.</text><!--MD5=[b13f17d50cdac167bb46d40c10883800]
+entity BI--><rect fill="#999999" height="87.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="181" x="347" y="579.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="91" x="392" y="604.3047">BI System</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="439.5" y="621.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="361" y="637.3701">Provides analytics for</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="375" y="653.667">decision support.</text><!--MD5=[37614f583e098a5daba14ca0978a522e]
+link customer to store_system--><path d="M1309.17,175.3911 C1285,191.8421 1259.41,210.0471 1236.5,227.9531 C1213.93,245.5891 1213.23,256.5051 1188.5,270.9531 C1136.07,301.5821 1072.55,324.3491 1018.71,340.1001 " fill="none" id="customer-to-store_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1010.83,342.3731,1019.349,343.0265,1017.678,337.2639,1010.83,342.3731" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="135" x="1237.5" y="254.0918">Buys clothes using</text><!--MD5=[9ac32455d7e985bc39cd6c6e0e7bd622]
+link support to store_system--><path d="M439.608,198.0391 C469.627,224.5541 505.129,251.8741 541.5,270.9531 C618.297,311.2381 713.284,335.8961 786.545,350.2651 " fill="none" id="support-to-store_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="794.465,351.7951,787.179,347.3326,786.0413,353.2237,794.465,351.7951" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="122" x="542.5" y="247.0918">Browses the site</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="39" x="586" y="261.0605">using</text><!--MD5=[8545c9eb982df3cd6e923961c989046c]
+link administrator to store_system--><path d="M654.148,197.0601 C671.059,222.8951 691.933,250.0511 715.5,270.9531 C736.634,289.6971 762.038,305.9601 787.211,319.5341 " fill="none" id="administrator-to-store_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="794.301,323.2901,788.6369,316.8935,785.8275,322.1951,794.301,323.2901" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="80" x="739.5" y="247.0918">Configures</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="130" x="716.5" y="261.0605">permissions using</text><!--MD5=[ae81a99f6c4d3571044c2482b0a84f03]
+link сall_center to store_system--><path d="M192.02,189.1161 C229.209,219.3051 275.408,251.5001 322.5,270.9531 C407.2,305.9401 436.046,286.2461 526.5,300.9531 C613.799,315.1471 712.206,332.7391 786.444,346.3351 " fill="none" id="сall_center-to-store_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="794.461,347.8051,787.1333,343.4114,786.0511,349.313,794.461,347.8051" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="148" x="323.5" y="247.0918">Processes customer</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="109" x="343" y="261.0605">requests using</text><!--MD5=[3792dc5ba6438495f79a2bd9132e6755]
+link content_manager to store_system--><path d="M1068.63,181.1211 C1050.06,209.8001 1027.01,243.0261 1003.5,270.9531 C996.763,278.9561 989.436,287.0101 981.91,294.8701 " fill="none" id="content_manager-to-store_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="976.122,300.8401,983.8453,297.1862,979.5383,293.0088,976.122,300.8401" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="94" x="1059" y="240.0918">Manages the</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="139" x="1036.5" y="254.0605">content of the site</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="39" x="1088.5" y="268.0293">using</text><!--MD5=[696a83f5693620f2482d64d058a2daf8]
+reverse link customer to notification_system--><path d="M1391.39,197.2271 C1385.7,233.3431 1379.16,274.8331 1373.96,307.8671 " fill="none" id="customer-backto-notification_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1392.66,189.1301,1388.4505,196.5652,1394.3773,197.4998,1392.66,189.1301" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="147" x="1387.5" y="247.0918">Sends notifications:</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="123" x="1399.5" y="261.0605">push, e-mail, sms</text><!--MD5=[a73d928c92048d3317a4908ba823855d]
+link store_system to notification_system--><path d="M1010.53,368.9531 C1086.69,368.9531 1188.02,368.9531 1262.74,368.9531 " fill="none" id="store_system-to-notification_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1270.8,368.9531,1262.8,365.9531,1262.8,371.9531,1270.8,368.9531" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="142" x="1067.75" y="349.0918">Sends notifications</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="39" x="1121.25" y="363.0605">using</text><!--MD5=[7b4a0b5dc6631299a36926f15a45d697]
+link store_system to payment_system--><path d="M1010.52,389.7921 C1083.85,405.4541 1181.94,430.7501 1263.5,466.9531 C1328.27,495.7021 1395.5,540.5391 1442.44,574.6951 " fill="none" id="store_system-to-payment_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1448.93,579.4411,1444.2378,572.3009,1440.6998,577.1468,1448.93,579.4411" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="111" x="1368.5" y="493.0918">Provides online</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="114" x="1369" y="507.0605">payments using</text><!--MD5=[20d5656c5ac50704e8d3c9e5e82fcb31]
+link customer to payment_system--><path d="M1499.69,172.6011 C1517.41,188.2491 1533.49,206.7951 1543.5,227.9531 C1597.22,341.4771 1554.53,493.6081 1525.59,571.6231 " fill="none" id="customer-to-payment_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1522.66,579.3941,1528.2887,572.9663,1522.6743,570.8501,1522.66,579.3941" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="149" x="1570.5" y="373.5918">Pays for order using</text><!--MD5=[9f713d073471ec4f940414a5248f3d9d]
+link order_picker to store_system--><path d="M855.041,197.2951 C854.453,221.2741 855.605,247.3281 860.5,270.9531 C862.004,278.2111 864.079,285.5931 866.507,292.8801 " fill="none" id="order_picker-to-store_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="869.27,300.7391,869.4459,292.1969,863.7857,294.1876,869.27,300.7391" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="137" x="861.5" y="254.0918">Views orders using</text><!--MD5=[6ae8e1b618acb68559935bf8e303d243]
+link store_system to delivery_system--><path d="M1010.71,420.2061 C1033.77,433.5851 1057.02,449.3041 1076.5,466.9531 C1101.65,489.7401 1124.08,519.4411 1141.89,546.7721 " fill="none" id="store_system-to-delivery_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1146.32,553.6641,1144.5186,545.3122,1139.4711,548.5561,1146.32,553.6641" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="125" x="1125.5" y="493.0918">Provides delivery</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="39" x="1170.5" y="507.0605">using</text><!--MD5=[3c475df79dc081d229c0bf86450e8013]
+link store_system to WMS--><path d="M794.498,433.2141 C782.3,443.4091 770.901,454.6911 761.5,466.9531 C740.229,494.6981 726.737,531.3471 718.442,562.0971 " fill="none" id="store_system-to-WMS" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="716.341,570.1881,721.2561,563.1994,715.4488,561.6908,716.341,570.1881" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="132" x="769" y="479.0918">Gets and modified</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="133" x="768.5" y="493.0605">information about</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="762.5" y="507.0293">the remaining items</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="39" x="817.5" y="520.998">using</text><!--MD5=[64dc806dcd2b2b6653f6073ca00a1ac9]
+link store_system to BI--><path d="M794.352,393.2681 C735.851,408.7681 663.842,432.6731 605.5,466.9531 C579.536,482.2091 525.438,533.8961 485.615,573.5351 " fill="none" id="store_system-to-BI" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="479.848,579.2901,487.6302,575.7634,483.3924,571.516,479.848,579.2901" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="63" x="631.5" y="486.0918">Provides</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="113" x="606.5" y="500.0605">information for</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="86" x="622" y="514.0293">analytics to</text><!--MD5=[604f715c55c8f32a0b155eda84234408]
+link sales_manager to BI--><path d="M393.06,437.1921 C391.64,464.3601 392.015,495.8701 397.5,523.9531 C400.633,539.9961 406.386,556.7271 412.57,571.7511 " fill="none" id="sales_manager-to-BI" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="415.832,579.4391,415.4679,570.9029,409.9448,573.2471,415.832,579.4391" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="107" x="407.5" y="493.0918">Analyzes using</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="125" x="398.5" y="507.0605">information from</text><!--MD5=[e0744d37be7525e34289d31eada3ae6b]
+link store_system to accounting_system--><path d="M913.91,436.9551 C921.088,479.1031 930.206,532.6441 936.799,571.3591 " fill="none" id="store_system-to-accounting_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="938.166,579.3861,939.7807,570.9961,933.8658,572.0031,938.166,579.3861" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="134" x="929.5" y="493.0918">Sends information</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="128" x="934.5" y="507.0605">for accounting to</text><rect fill="#FFFFFF" height="95.4844" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="136" x="1569.5" y="705.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="57" x="1575.5" y="725.6826">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1636.5" y="725.6826"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="124" x="1575.5" y="728.9844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1579.5" y="741.9795">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="124" x="1575.5" y="745.2813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="1579.5" y="758.2764">system</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="124" x="1575.5" y="761.5781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="1579.5" y="774.5732">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="124" x="1575.5" y="777.875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="1579.5" y="790.8701">external system</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1575.5" x2="1699.5" y1="712.6875" y2="712.6875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1575.5" x2="1699.5" y1="728.9844" y2="728.9844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1575.5" x2="1699.5" y1="745.2813" y2="745.2813"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1575.5" x2="1699.5" y1="761.5781" y2="761.5781"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1575.5" x2="1699.5" y1="777.875" y2="777.875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1575.5" x2="1699.5" y1="794.1719" y2="794.1719"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1575.5" x2="1575.5" y1="712.6875" y2="794.1719"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1699.5" x2="1699.5" y1="712.6875" y2="794.1719"/><!--MD5=[441093dbfc7388e8b6176f7eda808cf7]
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+' uncomment the following line and comment the first to use locally
+' !include C4_Context.puml
+ 
+LAYOUT_WITH_LEGEND()
+ 
+title System Context diagram for Online clothing store
+ 
+Person(customer, "Сustomer", "A customer making purchases in the online clothing store.")
+Person(content_manager, "Content manager", "An employee who forms the content of the site.")
+Person(сall_center, "Call center operator", "An employee of the Call center who works with customer requests.")
+Person(support, "Support staff member", "An employee who deals with user requests to work with the system.")
+Person(administrator, "Administrator", "An employee who manages the role model and participates in incidents analysis.")
+Person(order_picker, "Order picker", "An employee who selects a warehouse items and packages them for delivery.")
+Person_Ext(sales_manager, "Sales manager", "An employee who works to increase sales and revenue.")
+System(store_system, "Online clothing store", "Allows customers to make online orders for clothing purchases with online payment and delivery options.")
+ 
+System_Ext(notification_system, "Omni notification System", "Provides sending notifications through different channels.")
+System_Ext(payment_system, "Payment System", "Allows customers to make online payments.")
+System_Ext(delivery_system, "Delivery service System", "Allows customers to receive information about the delivery status of an order.")
+System_Ext(WMS, "Warehouse Management System", "Stores information about the remaining items.")
+System_Ext(accounting_system, "Accounting System", "Manages financial information.")
+System_Ext(BI, "BI System", "Provides analytics for decision support.")
+
+Rel(customer, store_system, "Buys clothes using")
+Rel(support, store_system, "Browses the site using")
+Rel(administrator, store_system, "Configures permissions using")
+Rel(сall_center, store_system, "Processes customer requests using")
+Rel(content_manager, store_system, "Manages the content of the site using")
+Rel_Back(customer, notification_system, "Sends notifications: push, e-mail, sms")
+Rel_Neighbor(store_system, notification_system, "Sends notifications using")
+Rel(store_system, payment_system, "Provides online payments using")
+Rel(customer, payment_system, "Pays for order using")
+Rel(order_picker, store_system, "Views orders using")
+Rel(store_system, delivery_system, "Provides delivery using")
+Rel(store_system, WMS, "Gets and modified information about the remaining items using")
+Rel(store_system, BI, "Provides information for analytics to")
+Rel(sales_manager, BI, "Analyzes using information from ")
+Rel(store_system, accounting_system, "Sends information for accounting to")
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system|
+|<#686868> external person |
+|<#999999> external system |
+endlegend
+ 
+title System Context diagram for Online clothing store
+ 
+rectangle "<$person>\n==Сustomer\n\n A customer making purchases in the online clothing store." <<person>> as customer 
+rectangle "<$person>\n==Content manager\n\n An employee who forms the content of the site." <<person>> as content_manager 
+rectangle "<$person>\n==Call center operator\n\n An employee of the Call center who works with customer requests." <<person>> as сall_center 
+rectangle "<$person>\n==Support staff member\n\n An employee who deals with user requests to work with the system." <<person>> as support 
+rectangle "<$person>\n==Administrator\n\n An employee who manages the role model and participates in incidents analysis." <<person>> as administrator 
+rectangle "<$person>\n==Order picker\n\n An employee who selects a warehouse items and packages them for delivery." <<person>> as order_picker 
+rectangle "<$person>\n==Sales manager\n\n An employee who works to increase sales and revenue." <<external_person>> as sales_manager 
+rectangle "==Online clothing store\n\n Allows customers to make online orders for clothing purchases with online payment and delivery options." <<system>> as store_system 
+ 
+rectangle "==Omni notification System\n\n Provides sending notifications through different channels." <<external_system>> as notification_system 
+rectangle "==Payment System\n\n Allows customers to make online payments." <<external_system>> as payment_system 
+rectangle "==Delivery service System\n\n Allows customers to receive information about the delivery status of an order." <<external_system>> as delivery_system 
+rectangle "==Warehouse Management System\n\n Stores information about the remaining items." <<external_system>> as WMS 
+rectangle "==Accounting System\n\n Manages financial information." <<external_system>> as accounting_system 
+rectangle "==BI System\n\n Provides analytics for decision support." <<external_system>> as BI 
+
+customer - ->> store_system : **Buys clothes using**
+support - ->> store_system : **Browses the site using**
+administrator - ->> store_system : **Configures permissions using**
+сall_center - ->> store_system : **Processes customer requests using**
+content_manager - ->> store_system : **Manages the content of the site using**
+customer <<- - notification_system : **Sends notifications: push, e-mail, sms**
+store_system ->> notification_system : **Sends notifications using**
+store_system - ->> payment_system : **Provides online payments using**
+customer - ->> payment_system : **Pays for order using**
+order_picker - ->> store_system : **Views orders using**
+store_system - ->> delivery_system : **Provides delivery using**
+store_system - ->> WMS : **Gets and modified information about the remaining items using**
+store_system - ->> BI : **Provides information for analytics to**
+sales_manager - ->> BI : **Analyzes using information from **
+store_system - ->> accounting_system : **Sends information for accounting to**
+@enduml
+
+PlantUML version 1.2021.16beta3(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
