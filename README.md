@@ -10,5 +10,5 @@
 
 ## OCS main classes diagram
 
-![Main classes diagram](./main-class-diagram-ocs.puml)
+![Main classes diagram](./main-class-diagram-ocs.svg)
 
