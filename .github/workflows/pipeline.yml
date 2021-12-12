@@ -2,6 +2,10 @@
 
 name: ocs-pipeline-actions
 
+env:
+  GH_PIPELINE_VAR1 : "GH PIPELINE VAR1 Value"
+  GH_PIPELINE_VAR2 : "GH PIPELINE VAR2 Value"
+
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
@@ -17,6 +21,9 @@ on:
 jobs:
   plantuml_svg_geteration:
     runs-on: ubuntu-latest
+    env: 
+      GH_JOB1_VAR1: "GH plantuml_svg_geteration job VAR1 Value"
+      GH_JOB1_VAR2: "GH plantuml_svg_geteration job VAR2 Value"
     steps:
       - name: Print message
         run: echo "Start plantuml files processing"
@@ -27,6 +34,12 @@ jobs:
         
       - name: ls current dir
         run: ls -la
+        
+      - name: printenv
+        run: printenv
+        env:
+          GH_STEP_VAR1: "GH STEP printenv VAR1 Value"
+          GH_STEP_VAR2: "GH STEP printenv VAR2 Value"
       
       # Runs a single command using the runners shell
       #- name: Run a one-line script
