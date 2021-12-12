@@ -1,0 +1,59 @@
+@startuml
+skinparam shadowing false
+hide methods
+
+title Online Clothing Store main classes diagram
+
+class Customer
+
+class Product
+
+
+class Cart
+class CartItem
+
+class Order{
+    number
+    creation_date
+    planned_delivery_date
+    tax_amount
+    delivery_amount
+    total_amount
+    customer_comment
+}
+enum PaymentType {
+    Online
+    Offline
+}
+class OrderItem{
+    price
+    quantity
+    discount
+}
+class OrderStatusHistoryItem
+enum OrderStatus {
+    New
+    Paid
+    Rejected
+    Picking_complete
+    Packing_complete
+    Delivery
+    Delivered
+    Received
+}
+
+class PickUpPoint
+
+Cart *-- "*" CartItem
+Customer *-- "1" Cart
+CartItem "0..1" --> "1" Product
+Customer *-- "*" Order
+Order *-- "*" OrderItem
+OrderItem "0..1" --> "1" Product
+Order "*" --> "1" PickUpPoint
+Order *-- "*" OrderStatusHistoryItem
+Order --> "1" OrderStatus
+OrderStatusHistoryItem --> "1" OrderStatus
+Order --> "1" PaymentType
+
+@enduml
