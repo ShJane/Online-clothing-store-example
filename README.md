@@ -8,7 +8,7 @@
 ![System context diagram](./c4-system-context-ocs.svg)
 
 
-### Container diagram
+## OCS main classes diagram
 
-![Container diagram](./c4-container-ocs.svg)
+![Main classes diagram](./main-class-diagram-ocs.puml)
 
